@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: black;	
+}
+#wrapper {
+	margin-top: 35px;
+	padding:0;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 601px;	
+	background-color: white;		
+}
+
+/*________________________________________________________Nav______________________________________________*/
+
+nav {
+	background-image: url(img/menubg22.jpg);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 471px;
+	position: relative;
+	top: -6px;	
+	border-right: 2px solid black;
+	border-top:2px solid black;
+	float: left;
+}
+
+ul {
+	padding: 65px 10px;	
+}
+
+ul li {
+	list-style-type: none;
+	text-align: right;
+	margin-top: 8px;		
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+h1 {
+	font-size: 36px;
+	font-family: Adobe Arabic, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 6px;
+	margin-top: 155px;	
+}
+
+/*-----------------------------------------------------Main-------------------------------------------*/
+
+main {
+	display: flex;
+	
+}
+
+
+/*-------------------------------------------------------- billeder-----------------------------------*/
+
+#firkant {
+	border-right: 2px solid black;
+	position: relative;
+	bottom: 2px;
+}
+
+#topban {
+	border-bottom: 2px solid black;
+	position: relative;
+	left: -4px;
+}
+
+#hansen {
+	margin-top: 90px;
+	margin-left: 10px;
+	
+}
+
+/*----------------------------------------------  artickle ----------------------------------*/
+
+article {
+	columns:2;
+	width: 798px;	
+}
+
+h2 {
+	font-size: 18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #f15808;
+	padding-left: 30px;	
+}
+
+p {
+	font-size: 11px;
+	font-family:  Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+	width: 320px;	
+	padding-left: 40px;	
+}
+
+.pdomKirk {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+figure {
+	float: right;
+	width: 368px;
+}
+
+#slotKirk {
+	float: right;
+	width: 368px;
+	margin-right: 10px;
+}
+
+#domhPic {
+	border: 2px solid black;
+	margin-left: 25px;
+}
+
+#domTop, #domBund {
+	margin-left: 15px;
+	border: 2px solid black;
+}
+
+#slot1, #slot2, #slot3 {
+	border: 2px solid black;	
+}
+
+#slot3 {
+	margin-top: 20px;
+}
+
+#domTop {
+	margin-top: -15px;
+}
+
+figcaption {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	margin-left: 35px;
+}
+
+
+ 
+
+
+
+
+
+
+
